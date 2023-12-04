@@ -9,7 +9,7 @@ public class Movie {
 	
 	Movie() {} 
 	
-	public Movie(String title, String director, int grade, String genre) {
+	Movie(String title, String director, int grade, String genre) {
 		this.title = title;
 		this.director = director;
 		this.grade = grade;
@@ -53,9 +53,6 @@ public class Movie {
 	//OverRiding
 	@Override
 	public String toString() {
-		return "영화 명: " + title + ", 감독 명: " + director + ", 영화 등급: " + grade + ", 장르: " + genre;
+		return "Movie [title=" + title + ", director=" + director + ", grade=" + grade + ", genre=" + genre + "]";
 	}
-		
-	
-
 }

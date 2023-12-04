@@ -83,16 +83,11 @@ public class MovieMenu {
 			case 0:
 				break out;
 			}
-			
 		} while(true);
-		
 		System.out.println("프로그램 종료");
 		sc.close();
 		
-		
 	}
-		
-		
 }
 	
 	

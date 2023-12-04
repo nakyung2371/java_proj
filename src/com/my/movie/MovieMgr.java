@@ -26,7 +26,7 @@ public class MovieMgr{
 	
 	
 	void search(String title) {
-		boolean s = false;
+		boolean s = false;		//입력 값의 결과 초기값: false
 		
 	    for (int i = 0; i < movies.size(); i++) {
 	        Movie m = movies.get(i);
@@ -100,5 +100,4 @@ public class MovieMgr{
 	    	System.out.println("입력한 영화 명과 일치하는 영화 목록이 없습니다.");
 	    }
 	}
-	
 }
